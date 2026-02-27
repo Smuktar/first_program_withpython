@@ -11,7 +11,7 @@ This is the first lab for Python. In this lab, learners will write their first p
     age = input("How old are you? ")
 
     print("Hello, " + name + "!")
-    print("You are " + age + " years old.")
+    print("You are " + age + " years old.") ```
 ### hello.py (breakdown)
 This program consists of three parts:
 
@@ -28,7 +28,7 @@ We can run this code with installed python version. Fire up your terminal (mac) 
 
 Check the version of the python first to make sure it has been installed
 
-``` python --version
+``` python --version ```
 Run the script hello.py
 
-``` python hello.py
+``` python hello.py ```
