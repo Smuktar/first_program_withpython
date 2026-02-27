@@ -5,13 +5,14 @@ hello.py is a simple program that asks the user for their name and age, and then
 ## Lab Overview
 This is the first lab for Python. In this lab, learners will write their first program. By the end of this lab, learners will be able to print messages including inputs from user using Python.
 
-## Example hello.py
-### hello.py
-``` name = input("What's your name? ")
-    age = input("How old are you? ")
+## Example: hello.py
+```python
+name = input("What's your name? ")
+age = input("How old are you? ")
 
-    print("Hello, " + name + "!")
-    print("You are " + age + " years old.") ```
+print("Hello, " + name + "!")
+print("You are " + age + " years old.")
+```
 ### hello.py (breakdown)
 This program consists of three parts:
 
@@ -28,7 +29,11 @@ We can run this code with installed python version. Fire up your terminal (mac) 
 
 Check the version of the python first to make sure it has been installed
 
-``` python --version ```
+```python
+python --version 
+```
 Run the script hello.py
 
-``` python hello.py ```
+```python
+python hello.py 
+```
